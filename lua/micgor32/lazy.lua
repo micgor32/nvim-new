@@ -23,17 +23,30 @@ require("lazy").setup({
     "nvim-treesitter/nvim-treesitter",
     "tpope/vim-fugitive",
     {
- 	"folke/trouble.nvim",
- 	dependencies = { "nvim-tree/nvim-web-devicons" },
- 	opts = { }, -- Default settings for now --
+ 		"folke/trouble.nvim",
+ 			dependencies = { "nvim-tree/nvim-web-devicons" },
+ 			opts = { }, -- Default settings for now --
     },
     {
         "folke/zen-mode.nvim",
-        opts = {
-	  alacritty = {
-            enabled = true,
-            font = "16",
-	  },
-	}
+        	opts = {
+	  			alacritty = {
+            	enabled = true,
+            	font = "16",
+	  		},
+		}
     },
+	"nvim-telescope/telescope-file-browser.nvim",
+	"williamboman/mason.nvim",
+	"williamboman/mason-lspconfig.nvim",
+	{
+		"neovim/nvim-lspconfig",
+		dependencies = {
+			"hrsh7th/cmp-nvim-lsp",
+        	"hrsh7th/cmp-buffer",
+        	"hrsh7th/cmp-path",
+        	"hrsh7th/cmp-cmdline",
+        	"hrsh7th/nvim-cmp",
+		}
+	}
 })
