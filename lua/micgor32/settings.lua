@@ -6,6 +6,8 @@ opt.tabstop = 4
 opt.shiftwidth = 4
 opt.smartindent = true
 
+opt.clipboard = "unnamedplus"
+
 opt.wrap = false
 opt.swapfile = false
 
