@@ -9,8 +9,9 @@ require("rose-pine").setup({
 	styles = {
           bold = true,
           italic = true,
-          transparency = true,
+          transparency = false,
     	},
 })
 
 vim.cmd("colorscheme rose-pine")
+require("lualine").setup()
