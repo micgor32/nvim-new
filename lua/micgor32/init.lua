@@ -1,6 +1,7 @@
 require("micgor32.lazy")
 require("micgor32.remap")
 require("micgor32.settings")
-require("micgor32.rosepine")
+-- require("micgor32.rosepine")
+require("micgor32.cappucini")
 require("micgor32.treesitter")
 require("micgor32.lsp")

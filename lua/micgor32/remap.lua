@@ -15,6 +15,12 @@ keymap.set("n", "<leader>l", "<C-w>l")
 keymap.set("n", "<leader>j", "<C-w>j")
 keymap.set("n", "<leader>k", "<C-w>k")
 keymap.set("n", "<leader>v", "<C-w>v")
+keymap.set("n", "<leader>s", "<C-w>s")
+keymap.set("n", "<leader>q", "<C-w>q")
+
+-- VimTex TODO: complete it xD --
+keymap.set("n", "<leader>cc", ":VimtexCompile<CR>")
+keymap.set("n", "<leader>vv", ":VimtexView<CR>")
 
 -- Telescope magic here :D --
 local builtin = require("telescope.builtin")
